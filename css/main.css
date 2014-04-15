@@ -188,6 +188,9 @@ body {
 }
 
 @media screen and (max-width: 980px) {
+    .logo {
+        top: 50px;
+    }
     .slider-next, .slider-prev {
         margin-top: -75px;
     }
