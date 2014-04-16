@@ -130,11 +130,17 @@ body {
     margin-left: -76px;
     width: 152px;
     height: 105px;
-    background: url(../img/logo.png);
+    background: url(../img/logo.svg);
     background-size: 100% 100%;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
+
+.no-svg {
+    background: url(../img/logo.png);
+    background-size: 100% 100%;
+}
+
 
 .footer {
     font-family: 'geometria_mediummedium';
