@@ -131,6 +131,9 @@ body {
     width: 152px;
     height: 105px;
     background: url(../img/logo.png);
+    background-size: 100% 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .footer {
@@ -193,7 +196,14 @@ body {
         top: 50px;
     }
     .slider-next, .slider-prev {
-        margin-top: -75px;
+        margin-top: -40px;
+        font-size: 35px;
+    }
+    .slider-next {
+        right: 30px;
+    }
+    .slider-prev {
+        left: 30px;
     }
     .main {
         padding: 20px 20px 0;
@@ -204,6 +214,13 @@ body {
     }
     .footer-sect {
         display: block;
+    }
+}
+@media screen and (max-height: 600px) {
+    .logo {
+        width: 100px;
+        height: 69px;
+        margin-left: -50px;
     }
 }
 
